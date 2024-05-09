@@ -1,0 +1,152 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: nunito;
+  flex-wrap: wrap;
+}
+
+header{
+  height: 100px;
+  background-color: rgba(17, 43, 78, 0.8);
+  padding: 0 20 px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+
+video{
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: -1;
+
+}
+
+.menu {
+  display: flex;
+  align-items: center; 
+  flex-wrap: wrap;
+  }
+
+.menu a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 30px;
+  transition: 0.4s;
+}
+
+.logok {
+  width: 100px; 
+  height: auto;
+  
+}
+
+.menu a:hover{
+  color: #144282;
+}
+
+
+.container {
+  position: relative;
+  padding: 0 50px;
+  width: 100%;
+  font-size: 42px;
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  padding-top: 20px;
+  top: 180px;
+}
+
+.introduccion{
+  position: relative;
+  padding: 0 50px;
+  width: 45%;
+  font-size: 22px;
+  color: #fff;
+  font-family: nunito;
+  top: 180px;
+}
+
+.sabermascontenedor {
+  position: relative;
+  bottom: 23%;
+  padding: 0 50px;
+  top: 210px;
+}
+
+.sabermas {
+  
+  color: #fff;
+  font-family: nunito;
+  padding: 10px 70px;
+  background-color: #012658;
+  border-radius: 10px;
+  height: 12vh;
+  transition: 0.4s;
+
+}
+
+.sabermas:hover {
+  background-color: #83B1EE ;
+}
+  
+
+
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(13, 63, 129, 0.7);
+    background-size: cover;
+    z-index: 0;
+  }
+
+.registro{
+  background-color: #144282;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.registro:hover {
+  background-color: #BCD8FE ;
+}
+
+
+.socialmedia {
+  position: fixed;
+  bottom: 8px;
+  right:20px;
+  font-family: nunito;
+  text-decoration: blink;
+  padding: 5px 30px;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  
+}
+
+.redsocial {
+  display: flex;
+  align-items: center;
+}
+
+.redsocial a {
+  margin-right: 10px;
+  margin-left: 30px; 
+}
+
+.redsocial img {
+  width: 25px; /
+}
+

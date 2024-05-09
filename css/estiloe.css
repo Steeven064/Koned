@@ -1,0 +1,176 @@
+body {
+
+  margin: 0;
+  padding: 0;
+
+  
+}
+
+
+
+h1{
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  bottom: 35%;
+  text-align: center;
+
+  font-family: nunito black;
+  font-size: 70pt;
+  line-height: 0.9;
+  color: #144282;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.introduccion{
+  position: absolute;
+  bottom: 27%;
+  left: 18%;
+  right: 18%;
+  text-align: center;
+
+  font-size: 22px;
+  color: #144282;
+  font-family: nunito;
+
+
+}
+
+.sabermascontenedor {
+  position: absolute;
+  bottom: 20%;
+  left: 43%;
+
+
+}
+
+.sabermas {
+  
+  color: #fff;
+  font-family: nunito;
+  padding: 10px 70px;
+  background-color: #012658;
+  border-radius: 10px;
+
+}
+
+.sabermas:hover {
+  background-color: #83B1EE ;
+}
+  
+
+.barrasuperior {
+  position: absolute;
+    top: 0;
+    bottom: 88%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(17, 43, 78, 1.0);
+    z-index: 0;}
+
+
+.logok {
+    position: absolute;
+    top: 23px;
+    transform: translate(-198%, -50%);
+    max-width: 7%;
+    z-index: 1;
+    display: flex;
+
+}
+
+
+.botones {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-42%);
+    display: flex;
+  
+
+}
+
+
+
+.boton {
+  
+  white-space: nowrap;
+  font-size: 9pt;
+  font-family: nunito;
+  text-align: center;
+  margin: 5px 5px;
+  padding: 10px 80px;
+  background-color: none;
+  color: #fff;
+  border-radius:0px;
+  cursor: pointer;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.boton:hover {
+  background-color: #4475B6;
+}
+
+
+.registro{
+  position: relative;
+  margin: 0px 10px;
+  white-space: nowrap;
+  font-size: 11pt;
+  font-family: nunito black;
+  text-align: center;
+  padding: 15px 30px 15px;
+  background-color: #fff;
+  color: #144282;
+  border-radius:5px;
+  cursor: pointer;
+  z-index: 1;
+  text-decoration: none;
+
+}
+
+.registro:hover {
+  background-color: #BCD8FE ;
+}
+
+
+.socialmedia {
+  position: fixed;
+  bottom: 8px;
+  right:20px;
+  font-family: nunito;
+  text-decoration: blink;
+  padding: 5px 30px;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  
+}
+
+.redsocial {
+  display: flex;
+  align-items: center;
+}
+
+.redsocial a {
+  margin-right: 10px;
+  margin-left: 30px; 
+}
+
+.redsocial img {
+  width: 25px; /
+}
+
+
+
+
+
+
+
+
+
